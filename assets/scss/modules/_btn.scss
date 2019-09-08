@@ -1,0 +1,19 @@
+.btn {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    background: none;
+    color: $cyan;
+    height: 40px;
+    min-width: 120px;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 1px solid $cyan;
+    border-radius: 1px;
+    cursor: pointer;
+    
+    &:hover {
+        background: $cyan;
+        color: $dark-purple;
+        transition-duration: 500ms;
+    }
+}
